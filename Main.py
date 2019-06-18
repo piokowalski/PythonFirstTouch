@@ -7,18 +7,24 @@ c = ""
 x = input("Enter an operator: ")
 if x == "+" :
     c = a + b
+    print(c)
 
 elif x == "-" :
     c = a - b
+    print(c)
 
 elif x == "*" :
     c = a * b
+    print(c)
 
 elif x == "/" :
     c = a / b
+    print(c)
 
 elif x == "%" :
     c = a % b
+    print(c)
+
 else:
     c = "Try again with operator"
     print("Answer: ", c)
