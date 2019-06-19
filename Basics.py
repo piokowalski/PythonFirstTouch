@@ -5,4 +5,5 @@ password = input("Enter the password: ")
 while correct_password != password:
     password = input("Try again, password: ")
 
-print("Hello",personName,"You're logged in.")
+message = "Hello, %s, You're logged in." % personName
+print(message)
