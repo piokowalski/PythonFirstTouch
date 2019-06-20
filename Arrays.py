@@ -18,5 +18,11 @@ print(family)
 family.append("Oma")
 family.insert(1, "Opa")
 family.remove("Tante")
+
+# family.clear()
+# #clearing all array
+
 print(family)
 #Adding new single element "Oma" in the end, and "Opa" at 2nd index, and removing "Tante"
+print(family.index(999))
+#Index of element with value 999
