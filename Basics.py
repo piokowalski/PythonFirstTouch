@@ -1,4 +1,4 @@
-correct_password = "aezakmi"
+correct_password = "a"
 personName = input("Enter Your name: ")
 password = input("Enter the password: ")
 
@@ -10,3 +10,13 @@ print(message)
 
 print(len(message))
 # counting letters
+
+print(message[2])
+# printing the 3rd letter in this String
+
+print(message.index("o"))
+# showing index of letter "o" is in this String
+
+print (message.replace("Hello", "Hi"))
+#replacing "Hello" into "Hi"
+
