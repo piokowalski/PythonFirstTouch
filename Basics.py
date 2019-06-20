@@ -34,8 +34,12 @@ myNum = -7
 print(abs(myNum))
 #printing absolute valuen
 
+print("\n")
 print(pow(myNum, 2))
 #power function
+print(sqrt(64))
+#square of number
+print("\n")
 
 print(max(88, -212, myNum))
 #printing the biggest valued number
@@ -46,3 +50,4 @@ print(round(3.5))
 print(floor(7.5))
 print (ceil(7.5))
 #rounding to lower / higher integer - "math import*"
+print("\n")
