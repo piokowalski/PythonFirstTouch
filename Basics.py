@@ -28,6 +28,7 @@ print("\n")
 # N U M B E R S
 # Operations
 
+from math import*
 
 myNum = -7
 print(abs(myNum))
@@ -38,3 +39,10 @@ print(pow(myNum, 2))
 
 print(max(88, -212, myNum))
 #printing the biggest valued number
+
+print(round(3.4))
+print(round(3.5))
+# round operation
+print(floor(7.5))
+print (ceil(7.5))
+#rounding to lower / higher integer - "math import*"
