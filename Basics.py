@@ -31,4 +31,10 @@ print("\n")
 
 myNum = -7
 print(abs(myNum))
-#printing absolute value
+#printing absolute valuen
+
+print(pow(myNum, 2))
+#power function
+
+print(max(88, -212, myNum))
+#printing the biggest valued number
