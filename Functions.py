@@ -25,6 +25,12 @@ user_logged("User")
 
 def cube(numba):
      return numba*numba*numba
+     print("It's not going to be printed - must be before return!")
+
 
 print(cube(4))
 #Returning cube of number
+
+result = cube(5)
+print(result)
+#other method to call this function
