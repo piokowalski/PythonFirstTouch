@@ -28,6 +28,16 @@ print(family.index(999))
 #Index of element with value 999
 
 print("\n")
+#Sorting of values inside
 
 numbers.sort()
 print(numbers)
+
+numbers.reverse()
+print(numbers)
+
+
+print("\n")
+#copying
+numbersCopy = numbers.copy()
+print(numbersCopy)
