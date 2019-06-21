@@ -20,3 +20,11 @@ def user_logged(name):
 user_logged("Administrator")
 user_logged("User")
 
+
+# return in functions
+
+def cube(numba):
+     return numba*numba*numba
+
+print(cube(4))
+#Returning cube of number
