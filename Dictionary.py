@@ -32,3 +32,7 @@ def translate(phrase):
     return translation
 
 print(translate(input("Enter your word: ")))
+
+'''comments
+are
+here'''
