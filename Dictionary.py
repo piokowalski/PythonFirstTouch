@@ -15,3 +15,16 @@ monthConversion = {
 }
 
 print(monthConversion.get("Jan"))
+
+#Simple translation
+
+def translate(phrase):
+    translation = ""
+    for letter in phrase:
+        if letter in "aeiouAEIOU":
+            translation = translation + "x"
+        else:
+            translation = translation + letter
+    return translation
+
+print(translate(input("Enter your word: ")))
