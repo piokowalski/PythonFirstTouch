@@ -41,3 +41,14 @@ print("\n")
 #copying
 numbersCopy = numbers.copy()
 print(numbersCopy)
+print()
+
+#Two dimensional list, with access to it
+
+numbers_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+print(numbers_grid[0][1])
