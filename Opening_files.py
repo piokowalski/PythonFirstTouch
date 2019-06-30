@@ -8,6 +8,10 @@ counting_file = open("Open_File.txt", "r")
 # print(counting_file.readline())
 
 # print(counting_file.readline()[0])
-print(counting_file.readlines()[0])
+# print(counting_file.readlines()[0])
+
+for line in counting_file.readlines():
+    print(line)
+
 
 counting_file.close()
