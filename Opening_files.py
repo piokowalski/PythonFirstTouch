@@ -7,4 +7,5 @@ counting_file = open("Open_File.txt", "r")
 print(counting_file.readline())
 print(counting_file.readline())
 
+print(counting_file.readlines())
 counting_file.close()
