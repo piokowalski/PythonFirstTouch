@@ -19,5 +19,7 @@ counting_file.close()
 write_file = open("Opening_files_writing","a")
 
 write_file.write("This is a new line created by python, tsssss.")
+write_file.write("\nThis is another line created by python, tsssss.")
+#the new line needs to be created
 
 write_file.close()
