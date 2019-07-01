@@ -9,7 +9,7 @@ def say_hi():
 say_hi()
 print("\n")
 
-#adding values into functions (like in JAVA)
+# adding values into functions (like in JAVA)
 def user_logged(name):
      print(name +" logged in.")
 
@@ -26,9 +26,10 @@ print(cube(4))
 
 result = cube(5)
 print(result)
-#other method to call this function
+# other method to call this function
 
-#to_import
+
+# to_import
 def roll_dice(num):
      return random.randint(1, num)
 
