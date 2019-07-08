@@ -9,3 +9,6 @@ class Student:
             return True
         else:
             return False
+
+    def make_excuse(self):
+        print("I was very sick, for real Professor!")
